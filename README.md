@@ -1,16 +1,53 @@
-## Hi there 👋
+\# Hi, I\'m \[Tu Nombre\] 👋
+>
+> \*\*Developer transitioning into Bioinformatics Security\*\*
+>
+> Focused on the intersection of cybersecurity, genomic data, and
+> DevSecOps.
+>
+> \-\--
+>
+> \## 🔭 What I\'m building
+>
+> \- 🔐 Hardened bioinformatics pipeline (Nextflow + Docker + Trivy)
+>
+> \- 🌐 Secure REST API for biological data (FastAPI + JWT + RBAC)
 
-<!--
-**dparedes-sec/dparedes-sec** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+\- 🧪 Personal cybersecurity lab (OWASP Juice Shop, DVWA)
 
-Here are some ideas to get you started:
+\## 🌱 Currently learning
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+\- OWASP Top 10 & API Security Top 10
+
+\- Container security & supply-chain hardening
+
+\- Threat modeling (STRIDE methodology)
+
+\## 🛠️ Tech Stack
+
+\![Python\](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+
+\![Docker\](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+
+\![Linux\](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+
+\![Git\](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+
+\## 📌 Featured Projects
+
+\| Project \| Description \| Tech \|
+
+\|\-\-\-\-\-\-\-\--\|\-\-\-\-\-\-\-\-\-\-\-\--\|\-\-\-\-\--\|
+
+\| \[Pipeline Hardening\] \| Supply-chain sec for genomic workflows \| 
+Nextflow, Docker, Trivy \|
+
+\| \[Cyber Lab\] \| Documented pentest findings (OWASP) \| DVWA, ZAP,
+sqlmap \|
+
+\| \[Bio API\] \| Secure API for biological data \| FastAPI, JWT,
+ PostgreSQL \|
+
+\## 📫 Let\'s connect
+
+\[\![LinkedIn\](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin)\](https://linkedin.com/in/\[tu-perfil\])
