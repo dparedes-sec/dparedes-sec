@@ -1,6 +1,6 @@
 # Hi, I'm Daniel Paredes 👋
 
-**Developer transitioning into Bioinformatics Security**
+**Developer transitioning into CyberSecurity**
 
 Focused on the intersection of cybersecurity, genomic data, and DevSecOps.
 
