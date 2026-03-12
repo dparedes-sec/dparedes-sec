@@ -1,53 +1,38 @@
-\# Hi, I\'m \[Tu Nombre\] 👋
->
-> \*\*Developer transitioning into Bioinformatics Security\*\*
->
-> Focused on the intersection of cybersecurity, genomic data, and
-> DevSecOps.
->
-> \-\--
->
-> \## 🔭 What I\'m building
->
-> \- 🔐 Hardened bioinformatics pipeline (Nextflow + Docker + Trivy)
->
-> \- 🌐 Secure REST API for biological data (FastAPI + JWT + RBAC)
+# Hi, I'm Daniel Paredes 👋
 
-\- 🧪 Personal cybersecurity lab (OWASP Juice Shop, DVWA)
+**Developer transitioning into Bioinformatics Security**
 
-\## 🌱 Currently learning
+Focused on the intersection of cybersecurity, genomic data, and DevSecOps.
 
-\- OWASP Top 10 & API Security Top 10
+---
 
-\- Container security & supply-chain hardening
+## 🔭 What I'm building
 
-\- Threat modeling (STRIDE methodology)
+- 🔐 Hardened bioinformatics pipeline (Nextflow + Docker + Trivy)
+- 🌐 Secure REST API for biological data (FastAPI + JWT + RBAC)
+- 🧪 Personal cybersecurity lab (OWASP Juice Shop, DVWA)
 
-\## 🛠️ Tech Stack
+## 🌱 Currently learning
 
-\![Python\](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+- OWASP Top 10 & API Security Top 10
+- Container security & supply-chain hardening
+- Threat modeling (STRIDE methodology)
 
-\![Docker\](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+## 🛠️ Tech Stack
 
-\![Linux\](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
-\![Git\](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+## 📌 Featured Projects
 
-\## 📌 Featured Projects
+| Project | Description | Tech |
+| :--- | :--- | :--- |
+| [Pipeline Hardening] | Supply-chain sec for genomic workflows | Nextflow, Docker, Trivy |
+| [Cyber Lab] | Documented pentest findings (OWASP) | DVWA, ZAP, sqlmap |
+| [Bio API] | Secure API for biological data | FastAPI, JWT, PostgreSQL |
 
-\| Project \| Description \| Tech \|
+## 📫 Let's connect
 
-\|\-\-\-\-\-\-\-\--\|\-\-\-\-\-\-\-\-\-\-\-\--\|\-\-\-\-\--\|
-
-\| \[Pipeline Hardening\] \| Supply-chain sec for genomic workflows \| 
-Nextflow, Docker, Trivy \|
-
-\| \[Cyber Lab\] \| Documented pentest findings (OWASP) \| DVWA, ZAP,
-sqlmap \|
-
-\| \[Bio API\] \| Secure API for biological data \| FastAPI, JWT,
- PostgreSQL \|
-
-\## 📫 Let\'s connect
-
-\[\![LinkedIn\](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin)\](https://linkedin.com/in/\[tu-perfil\])
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/daniel-paredes-ojeda/)
