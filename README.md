@@ -1,4 +1,4 @@
-# Hi, I'm Daniel Paredes 👋
+[[# Hi, I'm Daniel Paredes 👋
 
 **Developer transitioning into CyberSecurity**
 
@@ -36,3 +36,4 @@ Focused on the intersection of cybersecurity, genomic data, and DevSecOps.
 ## 📫 Let's connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/daniel-paredes-ojeda/)
+](https://github.com/dparedes-sec?tab=repositories )](https://github.com/dparedes-sec?tab=repositories )
