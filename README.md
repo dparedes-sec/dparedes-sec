@@ -4,7 +4,7 @@
 
 I'm building a hands-on cybersecurity portfolio focused on SOC operations, secure software development, API security, container security, and DevSecOps practices.
 
-My current focus is the intersection of **cybersecurity, genomic data, detection engineering, and secure cloud-native applications**.
+My current focus is the intersection of **cybersecurity, detection engineering, and secure cloud-native applications**.
 
 ---
 
@@ -157,3 +157,4 @@ I'm currently building practical experience toward roles such as:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Daniel%20Paredes%20Ojeda-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/daniel-paredes-ojeda/)
 
 [![GitHub](https://img.shields.io/badge/GitHub-dparedes--sec-181717?style=flat&logo=github&logoColor=white)](https://github.com/dparedes-sec?tab=repositories)
+](https://github.com/dparedes-sec/dparedes-sec/blob/main/README.md)
