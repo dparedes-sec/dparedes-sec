@@ -1,160 +1,140 @@
-# Hi, I'm Daniel Paredes 👋
+# Hi, I'm Daniel Paredes
 
-### Developer transitioning into Cybersecurity | SOC Analyst | AppSec | DevSecOps
+### Junior SOC/SecOps Professional | Alert Triage · Detection Engineering · Incident Response
 
-I'm building a hands-on cybersecurity portfolio focused on SOC operations, secure software development, API security, container security, and DevSecOps practices.
+Civil Informatics Engineer focused on SOC operations, security monitoring, and evidence-based incident documentation.
 
-My current focus is the intersection of **cybersecurity, detection engineering, and secure cloud-native applications**.
+I build controlled security labs to investigate alerts, document detection logic, and understand the applications and containers behind security telemetry. My development background in Python, FastAPI, and Docker supports my work in AppSec and DevSecOps.
 
----
+> All security testing in this portfolio is limited to owned laboratory environments, synthetic data, or intentionally vulnerable applications authorized for testing.
 
-## 🔭 What I'm currently building
+## Core Focus
 
-- 🛡️ **Mini-SOC with Wazuh**  
-  A self-contained SOC lab using Wazuh in Docker, focused on log analysis, SSH brute-force detection, vulnerability detection, runtime security, dashboards, and incident response runbooks.
+- SOC alert triage and investigation
+- Detection engineering with Wazuh and Falco
+- Phishing, firewall, endpoint, and vulnerability analysis
+- MITRE ATT&CK mapping and incident response documentation
+- Container, API, and software supply-chain security
+- Reproducible security labs with sanitized evidence
 
-- 🌐 **Secure Biological Data API**  
-  A REST API for biological data with authentication, authorization, input validation, rate limiting, audit logging, security headers, and Docker hardening.
+## Selected Security Projects
 
-- 🧪 **Cybersecurity Lab**  
-  A hands-on security lab using intentionally vulnerable applications to document findings, CVSS scoring, exploitation evidence, and remediation guidance.
+### 1. [Mini-SOC with Wazuh](https://github.com/dparedes-sec/mini-soc-wazuh)
 
----
+**Primary focus:** SOC Operations / Detection Engineering  
+**Status:** In progress
 
-## 🎯 Current focus
+A self-contained laboratory for collecting and investigating security telemetry with Wazuh and containerized components.
 
-- SOC monitoring and alert investigation
-- SIEM use cases with Wazuh
-- MITRE ATT&CK mapping
-- Incident response runbooks
-- API Security and OWASP API Top 10
-- Container security and runtime detection
-- Secure software development and DevSecOps
+**Demonstrates:**
 
----
+- Wazuh deployment in an owned Docker laboratory
+- SSH authentication monitoring and brute-force detection
+- MITRE ATT&CK mapping for documented detection scenarios
+- Vulnerability monitoring
+- Runtime security experimentation with Falco
+- Incident investigation notes and response runbooks
 
-## 🌱 Currently learning
+**Evidence standard:** Sanitized logs, reproducible test steps, positive and negative validation, expected alert fields, false-positive considerations, and documented limitations.
 
-- Wazuh SIEM and detection engineering
-- Incident response using NIST SP 800-61
-- OWASP Top 10 and OWASP API Security Top 10
-- Container security and supply-chain hardening
-- Threat modeling with STRIDE
-- Secure CI/CD practices
+**Technologies:** Wazuh · Falco · Docker · Linux · MITRE ATT&CK
 
 ---
 
-## 🛠️ Tech Stack
+### 2. [Secure Biological Data API](https://github.com/dparedes-sec/bio-api-secure)
 
-### Security and SOC
+**Primary focus:** Application Security / DevSecOps  
+**Status:** Active laboratory project
 
-![Wazuh](https://img.shields.io/badge/Wazuh-005571?style=flat&logo=wazuh&logoColor=white)
-![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK-ED1C24?style=flat&logo=mitre&logoColor=white)
-![Falco](https://img.shields.io/badge/Falco-00AEC7?style=flat&logo=falco&logoColor=white)
-![OWASP](https://img.shields.io/badge/OWASP-000000?style=flat&logo=owasp&logoColor=white)
+A FastAPI service used to demonstrate security controls for authentication, authorization, input validation, audit logging, and container execution.
 
-### Development and AppSec
+**Demonstrates:**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-
-### DevSecOps and Infrastructure
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=flat&logo=aquasecurity&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-
----
-
-## 📌 Featured Projects
-
-### 🛡️ [mini-soc-wazuh](https://github.com/dparedes-sec/mini-soc-wazuh)
-
-**Focus:** SOC Analyst / Blue Team
-
-A self-contained SOC environment designed to demonstrate:
-
-- Wazuh single-node deployment with Docker
-- SSH brute-force detection
-- MITRE ATT&CK T1110 mapping
-- CVE vulnerability detection
-- Runtime security monitoring with Falco
-- Security dashboards
-- Incident response runbooks based on NIST SP 800-61
-
-**Tech:** `Wazuh` `Docker` `Falco` `Linux` `MITRE ATT&CK`
-
----
-
-### 🌐 [bio-api-secure](https://github.com/dparedes-sec/bio-api-secure)
-
-**Focus:** Application Security / DevSecOps
-
-A secure REST API for biological data designed to demonstrate:
-
-- JWT authentication
+- JWT-based authentication
 - Role-based access control
-- Input validation
-- Rate limiting
-- Audit logging
-- HTTP security headers
-- Non-root Docker container execution
-- OWASP API Security Top 10 controls
+- Pydantic input validation
+- Rate limiting and security headers
+- Audit logging without intentionally storing sensitive personal data
+- Non-root Docker execution
+- OWASP API Security Top 10 review
 
-**Tech:** `FastAPI` `Python` `JWT` `RBAC` `PostgreSQL` `Docker`
+**Evidence standard:** Control definitions, positive and negative tests, sample sanitized logs, known limitations, and remediation notes.
 
----
-
-### 🧪 [cybersecurity-lab](https://github.com/dparedes-sec/cybersecurity-lab)
-
-**Focus:** Pentesting / Security Documentation
-
-A hands-on cybersecurity lab designed to demonstrate:
-
-- Vulnerability analysis in controlled environments
-- Evidence collection
-- CVSS scoring
-- OWASP mapping
-- Remediation guidance
-- Technical security reporting
-
-**Tech:** `OWASP` `DVWA` `ZAP` `sqlmap` `Linux`
+**Technologies:** FastAPI · Python · PostgreSQL · JWT · Docker · GitHub Actions
 
 ---
 
-## 🧠 How I document my projects
+### 3. [Cybersecurity Laboratory](https://github.com/dparedes-sec/cybersecurity-lab)
 
-Each project is designed to include:
+**Primary focus:** Vulnerability Analysis / Security Documentation  
+**Status:** Controlled learning laboratory
 
-- Clear setup instructions
-- Security objective and threat scenario
-- Technical implementation details
-- Detection logic or security controls
-- Evidence, screenshots, or logs
-- MITRE ATT&CK or OWASP mapping when relevant
-- Remediation notes and lessons learned
+A documented environment for assessing intentionally vulnerable applications and translating findings into clear technical reports.
 
----
+**Demonstrates:**
 
-## 🚀 Career direction
+- Testing restricted to authorized laboratory targets
+- Reproducible finding documentation
+- CVSS and OWASP classification
+- Sanitized evidence collection
+- Risk explanation and remediation guidance
+- Positive and negative validation where applicable
 
-I'm currently building practical experience toward roles such as:
+**Technologies:** OWASP Juice Shop · DVWA · OWASP ZAP · Linux
 
-- SOC Analyst
-- Junior Detection Engineer
-- Application Security Analyst
-- DevSecOps Engineer
-- Security-focused Backend Developer
+## Investigation and Documentation Approach
 
----
+For each detection, alert, or security control, I aim to document:
 
-## 📫 Let's connect
+| Field | Purpose |
+|---|---|
+| Data source | Identifies where the telemetry or application event originates |
+| Detection or control logic | Explains what behavior is detected or prevented |
+| Security mapping | MITRE ATT&CK for detection scenarios or OWASP for application controls |
+| Severity | Uses documented impact and confidence criteria |
+| False positives | Describes legitimate activity that may trigger the logic |
+| Positive test | Shows the controlled action expected to generate the result |
+| Negative test | Confirms that benign or unauthorized conditions do not produce the same result |
+| Response | Defines initial triage, containment, escalation, or remediation steps |
+| Limitations | States what the detection or control cannot prove or prevent |
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Daniel%20Paredes%20Ojeda-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/daniel-paredes-ojeda/)
+No production data, third-party targets, persistence mechanisms, or unauthorized exploitation are used in these projects.
 
-[![GitHub](https://img.shields.io/badge/GitHub-dparedes--sec-181717?style=flat&logo=github&logoColor=white)](https://github.com/dparedes-sec?tab=repositories)
-](https://github.com/dparedes-sec/dparedes-sec/blob/main/README.md)
+## Technical Toolkit
+
+**SOC and Security Operations**
+
+`Wazuh` `EDR Triage` `Firewall Analysis` `Phishing Analysis` `MITRE ATT&CK` `Incident Documentation`
+
+**Runtime and Infrastructure Security**
+
+`Falco` `Docker` `Linux` `Vulnerability Management`
+
+**Application Security and DevSecOps**
+
+`FastAPI` `Python` `REST APIs` `JWT` `RBAC` `OWASP` `GitHub Actions`
+
+## Professional Direction
+
+I am developing practical, documented experience for junior roles in:
+
+- SOC Analysis and SecOps
+- Security Monitoring and Detection Engineering
+- Application Security
+- DevSecOps and Container Security
+
+My main professional identity is **SOC/SecOps**. AppSec and DevSecOps are supporting capabilities that help me investigate telemetry in context and collaborate with development teams.
+
+## Languages
+
+- Spanish: Native
+- English: Professional working proficiency
+
+## Contact
+
+- [LinkedIn](https://linkedin.com/in/daniel-paredes-ojeda/)
+- GitHub: `@dparedes-sec`
+
+## Ethics and Scope
+
+All demonstrations are performed in owned laboratories, with synthetic data, public datasets authorized for research, or intentionally vulnerable applications. Any simulated event, log, screenshot, or result is labeled as simulated. Findings are presented for defensive education, detection validation, and remediation.
